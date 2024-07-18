@@ -1,0 +1,61 @@
+Requisitos:
+Sistema aberto na atividade de apanha palllet (Sem aceitar a atividade).
+Sistema aberto na impressão de etiquetas de endereço.
+
+Obs: certificar que o navegador não está salvando as senhas. Pois nos campos do tipo senhas,
+ao confirmar a entrada no campo, o navegador tenta salvar a senha, e isso atrapanha a automação.
+
+impressora = imput = Impressora para mandar etiquetas e imprimir endereço + lógica para selecionar
+
+atividade 121
+
+aceitar atividade
+bipar uma
+digitar endereço
+confirmar
+imprimir endereço
+repetir
+
+1 Ir ao navegador
+
+--> repetir...
+
+2 Aceitar atividade
+    Click em 'Aceitar'
+
+3 Guardar informação da UMA
+    Click triplo em uma
+    Copiar informação da uma e guardar
+
+4 Tratar informação da uma para confirmar () e guardar
+    Tratar informação da uma
+    Guardar informação tratada
+
+5 Confirmar UMA
+    Click campo de uma
+    Colar UMA tratada
+    Click em prosseguir
+
+6 Guardar informação do endereço
+    Click triplo em endereço
+    Copiar informação do endereço e guardar
+
+7 Tratar informação do endereço para confirmar e imprimir (015-015-01-01 -> 010150150101) e guardar
+    Tratar a informação do endereço
+    Guardar informação tratada
+
+8 Confirmar endereço
+    Click campo de endereço de destino
+    Colar endereço tratado
+    Click em confirmar
+
+10 confirmar
+    Click em confirmar confirmação
+
+<-- repetir...
+
+11 Ir para impressão de etiquetas
+
+12 Imprimir etiquetas
+
+13 Ir ao navegador
